@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 const axios = require('axios');
-const shortid = require('shortid');
 const list = [];
 
 app.use(express.urlencoded({ extended: false }));
